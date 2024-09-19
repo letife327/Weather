@@ -40,18 +40,28 @@ body {
   font-weight: 500;
   font-size: 20px;
 }
-#weather .card {
-  width: 30%;
+@media (max-width: 1199px) {
+  #weather .card {
+    width: 30%;
+  }
 }
-#weather .card {
-  width: 40%;
+@media (max-width: 767px) {
+  #weather .card {
+    width: 40%;
+  }
 }
-#weather .card {
-  width: 50%;
+@media (max-width: 767px) {
+  #weather .card {
+    width: 50%;
+  }
 }
-#weather .card {
-  width: 60%;
+@media (max-width: 419px) {
+  #weather .card {
+    width: 60%;
+  }
 }
-#weather .card {
-  width: 80%;
+@media (max-width: 352px) {
+  #weather .card {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
